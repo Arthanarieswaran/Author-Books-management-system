@@ -30,7 +30,6 @@ A simple Laravel backend application to manage **Authors** and their **Books**, 
 
 1. **Clone the repository**
 
-```bash
 git clone https://github.com/Arthanarieswaran/Author-Books-management-system.git
 cd Author-Books-management-system
 composer install
@@ -44,4 +43,12 @@ DB_DATABASE=your_database_name
 DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 
+# Key generation
+php artisan key:generate
+
+# Migrate Database
+php artisan migrate
+
+# php artisan serve
+php artisan serve
 
