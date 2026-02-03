@@ -36,3 +36,12 @@ cd Author-Books-management-system
 composer install
 cp .env.example .env
 
+# Edit your environment variables in the .env file
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_db_user
+DB_PASSWORD=your_db_password
+
+
