@@ -19,9 +19,9 @@ A simple Laravel backend application to manage **Authors** and their **Books**, 
 
 ## Technology Stack
 
-- **Framework:** Laravel 10  
+- **Framework:** Laravel 12  
 - **Language:** PHP 8+  
-- **Database:** MySQL / SQLite  
+- **Database:** MySQL  
 - **Dependency Management:** Composer
 
 ---
@@ -30,6 +30,7 @@ A simple Laravel backend application to manage **Authors** and their **Books**, 
 
 1. **Clone the repository**
 
+```bash
 git clone https://github.com/Arthanarieswaran/Author-Books-management-system.git
 cd Author-Books-management-system
 composer install
